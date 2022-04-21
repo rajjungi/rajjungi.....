@@ -1,0 +1,57 @@
+
+
+
+body{
+margin: 0%;
+padding: 0%;
+height: 100vh;
+background: url(green-1.jpg) no-repeat center;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+backdrop-filter: blur(8px);
+}
+
+.card{
+    height: 55vh;
+    width: auto;
+    box-shadow: 20px 20px 50px rgba(92, 162, 139, 0.101);
+    border-radius: 15px;
+    background: rgba(1, 1, 1, 0.318);
+    overflow: hidden;
+    border-top: 1px solid rgba(6, 6, 6, 0.94);
+    border-left: 1px solid rgba(10, 10, 10, 0.955);
+    backdrop-filter: blur(10px);
+
+}
+ h3{
+    color: rgb(115, 115, 118);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 5vh;   
+
+}
+
+.icons i{
+    margin-left: 12px;
+     display:inline-block;
+     margin: 15px;
+     padding: 13px;
+    color:rgb(100, 98, 98);
+    transition: 0.6s
+}
+    .instagram:hover i,.instagram
+    {
+        color:#c32aa3;
+    }
+     .sanpchat:hover i,.sanpchat
+     {
+         color:  #fffc00;
+     }
+    .whatsapp:hover i,.whatsapp
+    {
+        color:#25d366;
+    }
+
